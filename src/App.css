@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 20px auto;
+}
+
+a {
+  color: #F8F8E1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(129, 210, 150);
+}
+.active {
+  color: rgb(129, 210, 150);
+}
+
+
+body {
+  background-color: #393E46;
+  color: #F8F8E1;
+
+}
+
+p{
+    font-size: 18px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.example a{
+    text-decoration: underline;
+
+}
