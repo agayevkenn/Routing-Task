@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Examples from "./pages/Examples";
-import Notfound from "./pages/Notfound";
 import { Routes, Route, NavLink } from "react-router-dom";
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/examples" element={<Examples />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Notfound />} />
       </Routes>
       
     </>
