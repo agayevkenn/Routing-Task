@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Examples from "./pages/Examples";
 import { Routes, Route, NavLink } from "react-router-dom";
-function App() {
+function App() { 
   return (
     <>
     <div className="container">
